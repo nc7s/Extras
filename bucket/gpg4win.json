@@ -11,7 +11,8 @@
     ],
     "env_add_path": [
         "GnuPG\\bin",
-        "Gpg4win\\bin"
+        "Gpg4win\\bin",
+        "Gpg4win\\bin_64"
     ],
     "pre_uninstall": "Start-Process \"$dir\\Gpg4win\\gpg4win-uninstall.exe\" '/S' -Wait",
     "checkver": {
